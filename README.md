@@ -25,14 +25,15 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Shar-kabiru/Portfolio_website.git
+   
    cd portfolio
-2. Install dependencies:
+3. Install dependencies:
       npm install express mysql cors
-3. Set up MySQL database:
+4. Set up MySQL database:
       Create database 
       Populate with your data
-4. Configure database connection:
+5. Configure database connection:
       Edit db.js with your MySQL credentials:
 
         javascript
@@ -43,7 +44,7 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
           password: 'your_password',
           database: 'portfolio_db'
         }
-5. Start the server:
+6. Start the server:
         node server.js
-6. Open in browser:
+7. Open in browser:
       
